@@ -1,9 +1,11 @@
 <div>Welcome to the Sight Words Story</div>
 
-<div>List of Sight Words with clickable links</div>
-
-        <ul class="sightwords">
-            <li ng-repeat="word in words">
-                <a href="#/quiz/{{word.id}}">{{ word.sightword }}</a>
-            </li>
-        </ul>
+<div>List of Sight Words with clickable links
+<br /><br />
+Level 1 Words:
+</div>
+<ul class="sightwords" ng-repeat="items in words">
+    <li ng-repeat="word in items">
+        <a href="#/quiz/{{word.id}}">{{ word.sightword }}</a>
+    </li>
+</ul>

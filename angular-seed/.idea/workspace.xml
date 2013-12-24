@@ -2,26 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25213aab-bc58-4b16-87ae-3d45f5e73e85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/data/1.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/home.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/quiz.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/data/words.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.js" afterPath="$PROJECT_DIR$/app/js/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/directives.js" afterPath="$PROJECT_DIR$/app/js/directives.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/services.js" afterPath="$PROJECT_DIR$/app/js/services.js" />
     </list>
     <ignored path="angular-seed.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="25213aab-bc58-4b16-87ae-3d45f5e73e85" time="1385223923174" ignored="false" />
+    <file path="/Dummy.txt" changelist="25213aab-bc58-4b16-87ae-3d45f5e73e85" time="1387320880634" ignored="false" />
     <file path="/a.php" changelist="25213aab-bc58-4b16-87ae-3d45f5e73e85" time="1384484861110" ignored="false" />
     <file path="/a.dummy" changelist="25213aab-bc58-4b16-87ae-3d45f5e73e85" time="1384490005571" ignored="false" />
-    <file path="/home.html" changelist="25213aab-bc58-4b16-87ae-3d45f5e73e85" time="1384545928384" ignored="false" />
-    <file path="/index.html" changelist="25213aab-bc58-4b16-87ae-3d45f5e73e85" time="1384544650570" ignored="false" />
-    <file path="/words.json" changelist="25213aab-bc58-4b16-87ae-3d45f5e73e85" time="1385224432610" ignored="false" />
-    <file path="/controllers.js" changelist="25213aab-bc58-4b16-87ae-3d45f5e73e85" time="1385225146777" ignored="false" />
-    <file path="/quiz.html" changelist="25213aab-bc58-4b16-87ae-3d45f5e73e85" time="1385224965564" ignored="false" />
+    <file path="/home.html" changelist="25213aab-bc58-4b16-87ae-3d45f5e73e85" time="1387321656173" ignored="false" />
+    <file path="/index.html" changelist="25213aab-bc58-4b16-87ae-3d45f5e73e85" time="1387321611071" ignored="false" />
+    <file path="/words.json" changelist="25213aab-bc58-4b16-87ae-3d45f5e73e85" time="1386638536628" ignored="false" />
+    <file path="/controllers.js" changelist="25213aab-bc58-4b16-87ae-3d45f5e73e85" time="1386638906793" ignored="false" />
+    <file path="/quiz.html" changelist="25213aab-bc58-4b16-87ae-3d45f5e73e85" time="1386638613068" ignored="false" />
     <file path="/a.json" changelist="25213aab-bc58-4b16-87ae-3d45f5e73e85" time="1384812955162" ignored="false" />
+    <file path="/app.js" changelist="25213aab-bc58-4b16-87ae-3d45f5e73e85" time="1385955926482" ignored="false" />
+    <file path="/directives.js" changelist="25213aab-bc58-4b16-87ae-3d45f5e73e85" time="1387321468780" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,73 +43,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../from_scratch/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="42" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="22" selection-start="531" selection-end="537" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/data/1.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="-1.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="words.json" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/data/words.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="32" selection-start="472" selection-end="472" vertical-scroll-proportion="0.29049295">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/partials/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quiz.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/partials/quiz.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="16" selection-start="195" selection-end="195" vertical-scroll-proportion="-1.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/services.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="26" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+            <state line="13" column="54" selection-start="400" selection-end="400" vertical-scroll-proportion="0.33106962">
               <folding />
             </state>
           </provider>
@@ -131,23 +70,25 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/js/directives.js" />
         <option value="$PROJECT_DIR$/app/js/filters.js" />
         <option value="$PROJECT_DIR$/app/partials/partial2.html" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/js/services.js" />
-        <option value="$PROJECT_DIR$/app/partials/home.html" />
         <option value="$PROJECT_DIR$/app/data/a.json" />
-        <option value="$PROJECT_DIR$/app/js/app.js" />
         <option value="$PROJECT_DIR$/app/data/1.json" />
-        <option value="$PROJECT_DIR$/app/data/words.json" />
-        <option value="$PROJECT_DIR$/app/partials/quiz.html" />
+        <option value="$PROJECT_DIR$/app/js/app.js" />
         <option value="$PROJECT_DIR$/app/js/controllers.js" />
+        <option value="$PROJECT_DIR$/app/partials/quiz.html" />
+        <option value="$PROJECT_DIR$/app/js/directives.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/partials/home.html" />
+        <option value="$PROJECT_DIR$/app/data/words.json" />
+        <option value="$PROJECT_DIR$/../from_scratch/app/index.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="264" />
     <option name="y" value="22" />
     <option name="width" value="994" />
     <option name="height" value="774" />
@@ -186,120 +127,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-seed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-seed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-seed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-seed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-seed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-seed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-seed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-seed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-seed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-seed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-seed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-seed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-seed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-seed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -309,6 +136,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="preferences.sourceCode.PHP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../from_scratch" />
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -343,14 +171,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="994" height="774" extended-state="1" />
-    <editor active="true" />
+    <frame x="264" y="22" width="994" height="774" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27742615" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30274263" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -455,73 +283,77 @@
         <state line="3" column="37" selection-start="115" selection-end="129" vertical-scroll-proportion="-1.875" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/filters.js">
+    <entry file="file://$PROJECT_DIR$/app/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="24" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/app/partials/quiz.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="42" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
+        <state line="7" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/directives.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="35" selection-start="102" selection-end="109" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+        <state line="8" column="26" selection-start="182" selection-end="182" vertical-scroll-proportion="0.1983471">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="24" selection-start="147" selection-end="147" vertical-scroll-proportion="0.14876033">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="531" selection-end="537" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/quiz.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="195" selection-end="195" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="-1.875">
+        <state line="1" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/data/words.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="472" selection-end="472" vertical-scroll-proportion="0.29049295">
+        <state line="115" column="36" selection-start="2782" selection-end="2782" vertical-scroll-proportion="0.53367877">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="47" selection-start="1600" selection-end="1600" vertical-scroll-proportion="1.1256118">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="639" selection-end="639" vertical-scroll-proportion="0.44045678">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="7" selection-start="220" selection-end="220" vertical-scroll-proportion="0.26357827">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="5" selection-start="180" selection-end="180" vertical-scroll-proportion="0.20373514">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../from_scratch/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="54" selection-start="400" selection-end="400" vertical-scroll-proportion="0.33106962">
           <folding />
         </state>
       </provider>

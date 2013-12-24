@@ -1,33 +1,128 @@
 {
-    "1" : {  "sightword":"a", "correct_img":"dog.jpg", "incorrect_img":"cat.jpg", "sentence":"<a href='javascript:void(0);'>This is a dog</a>" },
-    "2" : { "sightword":"at" },
-    "3" : { "sightword":"an" },
-    "4" : { "sightword":"and" },
-    "5" : { "sightword":"am" },
-    "6" : { "sightword":"are" },
-    "7" : { "sightword":"can" },
-    "8" : { "sightword":"do" },
-    "9" : { "sightword":"for" },
-    "10": { "sightword":"go" },
-    "11": { "sightword":"has" },
-    "12": { "sightword":"have" },
-    "13": { "sightword":"here" },
-    "14": { "sightword":"in" },
-    "15": { "sightword":"I" },
-    "16": { "sightword":"is" },
-    "17": { "sightword":"it" },
-    "18": { "sightword":"like" },
-    "19": { "sightword":"look" },
-    "20": { "sightword":"me" },
-    "21": { "sightword":"my" },
-    "22": { "sightword":"no" },
-    "23": { "sightword":"play" },
-    "24": { "sightword":"said" },
-    "25": { "sightword":"see" },
-    "26": { "sightword":"she" },
-    "27": { "sightword":"so" },
-    "28": { "sightword":"the" },
-    "29": { "sightword":"to" },
-    "30": { "sightword":"up" },
-    "31": { "sightword":"we" }
+    "words" : {
+        "1" : [
+            {
+                "id" : "1",
+                "sightword":"a",
+                "correct_img":"dog.jpg",
+                "incorrect_img":"cat.jpg",
+                "sentence":[
+                   "this",
+                    "is",
+                    "a",
+                    "dog"
+                ]
+            }
+        ],
+        "2" : [
+            {
+                "id" : "2",
+                "sightword":"at",
+                "correct_img":"park.jpg",
+                "incorrect_img":"beach.jpg",
+                "sentence":[
+                    "I",
+                    "am",
+                    "at",
+                    "the",
+                    "park"
+                ]
+
+            }
+        ],
+        "3" : [
+            {
+                "id" : "3",
+                "sightword":"an",
+                "correct_img":"ear.jpg",
+                "incorrect_img":"nose.jpg",
+                "sentence":[
+                    "This",
+                    "is",
+                    "an",
+                    "ear"
+                ]
+
+            }
+        ],
+        "4" : [
+            {
+                "id" : "4",
+                "sightword":"am",
+                "correct_img":"kid.jpg",
+                "incorrect_img":"adult.jpg",
+                "sentence":[
+                    "I",
+                    "am",
+                    "a",
+                    "kid"
+                ]
+
+            }
+        ],
+        "5" : [
+            {
+                "id" : "5",
+                "sightword":"go",
+                "correct_img":"beach.jpg",
+                "incorrect_img":"park.jpg",
+                "sentence":[
+                    "You",
+                    "go",
+                    "to",
+                    "the",
+                    "beach"
+                ]
+
+            }
+        ],
+        "6" : [
+            {
+                "id" : "6",
+                "sightword":"in",
+                "correct_img":"coat.jpg",
+                "incorrect_img":"shorts.jpg",
+                "sentence":[
+                    "I",
+                    "am",
+                    "in",
+                    "a",
+                    "coat"
+                ]
+
+            }
+        ],
+        "7" : [
+            {
+                "id" : "7",
+                "sightword":"I",
+                "correct_img":"park.jpg",
+                "incorrect_img":"beach.jpg",
+                "sentence":[
+                    "I",
+                    "am",
+                    "at",
+                    "the",
+                    "park"
+                ]
+
+            }
+        ],
+        "8" : [
+            {
+                "id" : "8",
+                "sightword":"is",
+                "correct_img":"house.jpg",
+                "incorrect_img":"car.jpg",
+                "sentence":[
+                    "This",
+                    "is",
+                    "a",
+                    "house"
+                ],
+                "last" : "yes"
+
+            }
+        ]
+    }
 }

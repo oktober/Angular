@@ -15,13 +15,14 @@ angular.module('myApp.controllers', []).
   .controller('WordsCtrl', ['$scope', '$http',
       function ($scope, $http) {
             $http.get('data/words.json?' + new Date().getTime()).success(function(data) {
-                $scope.words = data;
+                $scope.words = data.words;
+                console.log(data);
             })
   }])
-  .controller('QuizCtrl', ['$scope', '$http', '$routeParams',
-      function ($scope, $http, $routeParams) {
+  .controller('QuizCtrl', ['$scope', '$http', '$routeParams', '$timeout',
+      function ($scope, $http, $routeParams, $timeout) {
           $http.get('data/words.json?' + new Date().getTime()).success(function(data) {
-              var word = data[$routeParams.quizId];
+              var word = data.words[$routeParams.quizId][0];
 
               //this function will randomize which image displays first
               var randomFunction = function(){
@@ -36,7 +37,27 @@ angular.module('myApp.controllers', []).
               };
               randomFunction();
 
-              $scope.words = word;
+              $scope.word = word;
           });
+
+          $scope.checkImg = function(img){
+              if(img == $scope.word.correct_img){
+                  //check to see if this is the last sightword
+                  if($scope.word.last == 'yes'){
+                     window.location = '#/home/';
+                  }else{
+                      var nextId = parseInt($scope.word.id) + 1;
+                      window.location = '#/quiz/'+nextId;
+                  }
+              }else{
+                  alert("Image is incorrect");
+              }
+          };
+
+          $scope.playClip = function(word){
+              var mySound = new buzz.sound("audio/"+word+".mp3");
+              mySound.load();
+              mySound.play();
+          };
   }])
   ;
